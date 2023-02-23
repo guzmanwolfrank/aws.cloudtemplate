@@ -1,5 +1,11 @@
 # Use AWS config file (~/.aws/config) to load credentials!  This helps solve security risk issues.
-
+# OR 
+# Use the following scripts after header: 
+# session = boto3.Session(profile_name=<...your-profile...>)
+   # credentials = session.get_credentials()
+   # print("AWS_ACCESS_KEY_ID = {}".format(credentials.access_key))
+   # print("AWS_SECRET_ACCESS_KEY = {}".format(credentials.secret_key))
+   # print("AWS_SESSION_TOKEN = {}".format(credentials.token))
 
 import boto3
 
