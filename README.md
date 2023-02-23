@@ -1,5 +1,5 @@
 # aws.cloudtemplate
-Basic cloud template with load balancer, t2micro, autoscaling...
+Basic, customizable cloud template with load balancer, t2micro, autoscaling for AWS. 
 
 
 AWS Services:
