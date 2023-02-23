@@ -1,3 +1,6 @@
+# Use AWS config file (~/.aws/config) to load credentials!  This helps solve security risk issues.
+
+
 import boto3
 
 # Set up the EC2 client
